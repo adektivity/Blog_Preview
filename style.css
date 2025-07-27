@@ -43,6 +43,7 @@ header {
   max-width: 320px;
   outline: 1px solid var(--heading-color);
   border-radius: 0.875rem;
+  box-shadow: 0.5rem 0.5rem;
 }
 
 .card {
@@ -109,9 +110,12 @@ header {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.8rem;
+  font-weight: 500;
   text-align: right;
+  margin-right: 0.5rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
